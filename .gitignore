@@ -1,0 +1,10 @@
+# Exclude all files and directories in the parent directories
+../../*
+
+# Allow your project directory
+!../../PORTSITE/
+
+# Exclude specific files and directories within your project directory
+.vscode/
+node_modules/
+*.log
